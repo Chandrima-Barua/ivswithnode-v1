@@ -1,0 +1,61 @@
+{
+    "name": "react_express_ivs",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@aws-sdk/client-ivs": "^3.10.0",
+        "@aws-sdk/client-medialive": "^3.16.0",
+        "@testing-library/jest-dom": "^5.11.9",
+        "@testing-library/react": "^11.2.5",
+        "@testing-library/user-event": "^12.8.3",
+        "aws": "^0.0.3-2",
+        "aws-sdk": "^2.874.0",
+        "axios": "^0.21.1",
+        "body-parser": "^1.19.0",
+        "bootstrap": "^4.6.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "jquery": "^3.6.0",
+        "mongoose": "^5.12.5",
+        "mysql": "^2.18.1",
+        "path": "^0.12.7",
+        "react": "^17.0.2",
+        "react-copy-to-clipboard": "^5.0.3",
+        "react-dom": "^17.0.2",
+        "react-native-aws-signature": "^0.0.9",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "4.0.3",
+        "reactstrap": "^8.9.0",
+        "web-vitals": "^1.1.1"
+    },
+    "proxy": "http://localhost:3001",
+    "scripts": {
+        "start": "react-scripts start",
+        "dev": "concurrently  \"nodemon server/index\" \"npm start\"",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "concurrently": "^6.0.2"
+    }
+}
